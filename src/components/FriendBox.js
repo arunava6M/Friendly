@@ -70,7 +70,7 @@ const FriendBox = () => {
          const currentListFr = filteredData.slice(indexFirstFr, indexLastFr)
          setPaginatedData(currentListFr)
       } else setPaginatedData(filteredData)
-   }, [ filteredData, currentPage, paginateConst ])
+   }, [ filteredData, currentPage ])
 
    const pageNumbers =  []
    for (let i = 1; i <= Math.ceil(filteredData.length / paginateConst); i++) {

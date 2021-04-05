@@ -1,5 +1,4 @@
 import { createUseStyles } from 'react-jss'
-import { useState, useEffect } from 'react'
 import { MdFavoriteBorder, MdFavorite, MdDelete }from 'react-icons/md'
 
 import Grouped from './Grouped'

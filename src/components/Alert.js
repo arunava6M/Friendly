@@ -7,7 +7,6 @@ const useStyles = createUseStyles({
    styles: {
       position: 'fixed',
       display: ({open}) => open ? 'flex' : 'none',
-      alignItems: 'center',
       flexDirection: 'column',
       justifyContent: 'space-around',
       alignItems: 'center',
